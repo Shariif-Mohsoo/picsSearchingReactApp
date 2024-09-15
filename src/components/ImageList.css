@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+}
+.image_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image_block {
+  height: 30rem;
+  width: 30rem;
+  margin: 1rem;
+  @media only screen and (max-width: 60em) {
+    width: 100%;
+  }
+}
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
